@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1097286424752",
+    "firebase_url": "https://deaf-dumb-comunication.firebaseio.com",
+    "project_id": "deaf-dumb-comunication",
+    "storage_bucket": "deaf-dumb-comunication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097286424752:android:d26244563dd78c50eac375",
+        "android_client_info": {
+          "package_name": "com.example.deafdumbcomunication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097286424752-7jaeei90ipupm29jupeibdrbneag8sni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deafdumbcomunication",
+            "certificate_hash": "6d86eef1f37af2000921ce694357dc8b0d8758ed"
+          }
+        },
+        {
+          "client_id": "1097286424752-dcu1op1c4c4csousgqlqu03j6hvj5cgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrzWDgyqCiC5crXeVasiCEdSuiCMU_2G0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097286424752-dcu1op1c4c4csousgqlqu03j6hvj5cgb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

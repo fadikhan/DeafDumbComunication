@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Deaf &amp; Dumb Comunication</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_addNew">Add</string>
+    <string name="nav_fav">Favorite</string>
+    <string name="nav_signout">Sign Out</string>
+
+
+
+</resources>

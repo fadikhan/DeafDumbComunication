@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="8dp"
+    android:elevation="3dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="60dp"
+        android:padding="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cofee"
+
+        />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cofee"
+        android:textColor="#3F51B5"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="60dp" />
+    
+        <Button
+            android:id="@+id/favBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="60dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/ic_favorite_shadow_24dp"
+            />
+
+
+          <EditText
+              android:id="@+id/quantity"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom|end"
+              android:inputType="number"
+              android:hint="Enter Quantity"
+
+              />
+
+    
+
+
+</androidx.cardview.widget.CardView>
